@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6904351741412748144}
   m_Layer: 0
   m_Name: Cultivation_Space
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,4 +144,5 @@ PolygonCollider2D:
       - {x: 0.5010185, y: -0.02891089}
       - {x: 0.5015545, y: 0.0027457029}
       - {x: 0.5008564, y: 0.028792107}
-      - {x: 0.25242805, y: 0.43992645}
+      - {x: 0.25226778, y: 0.43848795}
+      - {x: 0.2538752, y: 0.4404088}

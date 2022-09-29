@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tile
+  - Enemy
+  - Plant
   layers:
   - Default
   - TransparentFX
@@ -11,9 +14,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Damageable
+  - Plant
+  - Enemy
   - 
   - 
   - 
@@ -43,4 +46,7 @@ TagManager:
     locked: 0
   - name: Layer1
     uniqueID: 2683243689
+    locked: 0
+  - name: Layer2
+    uniqueID: 1747063973
     locked: 0
