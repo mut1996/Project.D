@@ -2,16 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Player 가 가지고있는 
+/// </summary>
+
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private PlayerData playerData;
+
+
+
+
+    private void Awake()
     {
-        
+           
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
         
     }
