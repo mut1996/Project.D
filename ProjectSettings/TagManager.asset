@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Tile
   - Enemy
   - Plant
+  - Cutilvation
   layers:
   - Default
   - TransparentFX

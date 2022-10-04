@@ -10,6 +10,8 @@ public class Tile : MonoBehaviour
 
     [SerializeField]
     private Sprite[] sprites;
+    [SerializeField]
+    private Sprite cultivationSprite;
 
     public bool isCultivating { get; set; }
     public bool isBuilding { get; set; }
@@ -18,6 +20,7 @@ public class Tile : MonoBehaviour
     {
         spriteArray = new int[3, 3];
         spriteRenderer = GetComponent<SpriteRenderer>();
+
 
         isCultivating = false;
         isBuilding = false;
@@ -29,24 +32,24 @@ public class Tile : MonoBehaviour
 
     private void Update()
     {
+
+        if (isCultivating) 
+        {
+            spriteRenderer.sprite = cultivationSprite;
+        }
+
+
         //   x x x 
         //   x 0 x 
         //   x x x
-        if (transform.position)
-        {
-            spriteRenderer.sprite = sprites[3];
-        }
-        else if ()
-        {
-            
-        }
+      
 
 
     }
 
     private void SearchNearBySprite() 
     {
-        spriteArray
+        
     }
 
 
