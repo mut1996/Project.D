@@ -4,6 +4,7 @@ using UnityEngine;
 
 
 
+public enum WeaponType { Cannon, Laser, Shotgun}
 public enum PlantState { SearchTarget, AttackTarget,}
 
 public class Plant : MonoBehaviour
@@ -15,12 +16,11 @@ public class Plant : MonoBehaviour
     private BoxCollider2D boxCollider;
     private Animator animator;
 
+    [SerializeField]
+    private PlantData plantData;
 
-    private int hp;
-    private int maxHP;
-    private float range;
-    private int damage;
 
+  
 
     private void Awake()
     {
@@ -36,9 +36,6 @@ public class Plant : MonoBehaviour
     }
 
 
-
-
-
-
+    
 
 }

@@ -7,6 +7,8 @@ using UnityEngine;
 public class PlayerData : ScriptableObject
 { 
     public int gold;
+    public int stemina;
     public float maxHP;
     public float currentHP;          // ÁıÀÇ hp
+
 }
